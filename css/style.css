@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100;
+  height: 100vh;
+  background-color: rgb(215, 195, 195);
+}
+.Container .Keyboard {
+  border-radius: 4px;
+  width: 70rem;
+  height: auto;
+  align-items: center;
+}
+.Container .Keyboard #DisplayArea {
+  word-wrap: break-word;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  height: 10rem;
+  background-color: white;
+}
+.Container .Keyboard .ButtonArea {
+  margin-top: 2rem;
+  width: 70rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container .Keyboard .ButtonArea #ButtonArea {
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  padding-top: 1rem;
+  box-shadow: -5px 3px 42px -4px rgba(0, 0, 0, 0.75);
+}
+.Container .Keyboard .ButtonArea #ButtonArea .Letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 1rem;
+  width: 4.5rem;
+  height: 5rem;
+  background-color: #292c35;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Container .Keyboard .ButtonArea #ButtonArea .Letter:nth-child(41) {
+  font-size: 1.1rem;
+}
+.Container .Keyboard .ButtonArea #ButtonArea .Letter:nth-child(44) {
+  width: 15.5rem;
+}
+.Container .Keyboard .ButtonArea #ButtonArea .Letter:nth-child(47) {
+  width: 10rem;
+}/*# sourceMappingURL=style.css.map */
